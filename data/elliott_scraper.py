@@ -45,7 +45,8 @@ def get_song_links(soup):
 
 
 if __name__ == '__main__':
-	soup = make_soup('https://www.azlyrics.com/e/elliottsmith.html')
+	ARTIST_URL = 'https://www.azlyrics.com/e/elliottsmith.html'
+	soup = make_soup(ARTIST_URL)
 	all_songs_links = get_song_links(soup)
 	all_lyrics = get_all_song_lyrics(all_songs_links)
 	write_csv(all_lyrics)
