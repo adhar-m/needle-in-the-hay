@@ -1,2 +1,2 @@
-# needle-in-the-hay
-A network trained on Elliott Smith lyrics. And a website. In progress.
+# Lyrics scraper
+A script to scrape song lyrics for a particular artist.
